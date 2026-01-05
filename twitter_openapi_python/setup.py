@@ -8,7 +8,7 @@ NAME = "twitter_openapi_python"
 VERSION = "0.0.42"
 PYTHON_REQUIRES = ">=3.7"
 REQUIRES = [
-    "twitter_openapi_python_generated == 0.0.33",
+    "twitter_openapi_python_generated @ git+https://github.com/Kyrela/twitter_openapi_python.git#subdirectory=twitter_openapi_python_generated",
     "pydantic >= 2.6",
     "urllib3 >= 2.1.0, < 3.0.0",
     "xclienttransaction >= 1.0.0, < 2.0.0"

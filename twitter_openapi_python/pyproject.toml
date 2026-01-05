@@ -16,7 +16,7 @@ pydantic = ">=2.6"
 urllib3 = ">= 2.1.0 < 3.0.0"
 xclienttransaction = ">= 1.0.0 < 2.0.0"
 
-twitter-openapi-python-generated = "0.0.33"
+twitter-openapi-python-generated = { git = "https://github.com/Kyrela/twitter_openapi_python.git", subdirectory = "twitter_openapi_python_generated" }
 
 [tool.poetry.dev-dependencies]
 
